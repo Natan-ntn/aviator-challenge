@@ -39,16 +39,20 @@ a{
     display: flex;
     align-items: center;
     color: var(--white-color);
-    padding: 0 16px;
+    padding: 13px 16px;
 }
 
-.btn-primary{
-    background: var(--primary-color);
-}
+    .btn:hover{
+        filter: brightness(0.8);
+    }
 
-.btn-secondary{
-    background: var(--secondary-color);
-}
+    .btn-primary{
+        background: var(--primary-color);
+    }
+
+    .btn-secondary{
+        background: var(--secondary-color);
+    }
 
 
 /* Navegation */
@@ -69,15 +73,6 @@ nav{
            margin: 0 5px;
         }
 
-
-.aviator{
-    background: #1b1c1e;
-    width: 100%vw;
-    height: 43px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1px;
-}
 
 .apostas{
     background: #1b1c1e;
